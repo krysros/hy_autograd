@@ -1,0 +1,5 @@
+(import autograd [grad :as ∂])
+(defn w [x y] (+ (** x 2) (** y 3)))
+(setv  dx 0  dy 1)
+(print ((∂ w dx) 1. 2.))
+(print ((∂ w dy) 1. 2.))
