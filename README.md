@@ -22,7 +22,7 @@ hy tahn.hy
 
 (defn tanh [x] (/ (- 1.0 (np.exp (- x))) (+ 1.0 (np.exp (- x)))))
 
-(setv x (np.linspace (- 7) 7 200))
+(setv x (np.linspace -7 7 200))
 
 (plt.plot
   x (tanh x)
