@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ## Run
 
 ```console
-hy tahn.hy
+hy tanh.hy
 ```
 
 ## Example 1
